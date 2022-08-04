@@ -10,16 +10,21 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(../images/calculator.jpg);
+    background-color: #213970;
+    /* background-image: url(../images/calculator.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .display {
     margin-left: 27px;
     width: 424px;
     height: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .operation {
@@ -27,6 +32,8 @@ body {
     color: white;
     width: 424px;
     height: 32px;
+    font-weight: bold;
+
 }
 
 .container {
@@ -37,7 +44,7 @@ body {
 }
 
 .container button {
-    background-color: orange;
+    background-color: #f49f1c;
     color: white;
 }
 
