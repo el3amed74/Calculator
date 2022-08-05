@@ -29,12 +29,7 @@ buttons.forEach(btn => {
             operation.innerText += display.innerText + " " + btn.innerText;
             display.innerText = "";
             if (vars.length === 2) {
-/*
-|| ids[1] === "plus"
-|| ids[1] === "min"
-|| ids[1] === "mult"
-|| ids[1] === "divide"
-*/
+
                 if (ids[0] === "plus" ) {
                     answer = Number(vars[0]) + Number(vars[1]);
                     operation.innerText = answer + "" + btn.innerText;
@@ -106,51 +101,8 @@ buttons.forEach(btn => {
                     console.log(vars.toString());
                     ids.shift();
                     
-
-                }
-                // else if (ids[0] === "min") {
-                //     answer = Number(vars[0]) - Number(vars[1]);
-                //     operation.innerText = answer + "" + btn.innerText;
-                //     //display.innerText = "";
-                //     if (ids[1] === "equal") {
-                //         display.innerText = answer + "";
-                //         operation.innerText = "";
-                //     }
-                //     vars.length = 0;
-                //     vars.push(answer);
-                //     console.log(vars.toString());
-                //     ids.shift();
-                // } else if (ids[0] === "mult") {
-                //     answer = Number(vars[0]) * Number(vars[1]);
-                //     operation.innerText = answer + "" + btn.innerText;
-                //     if (ids[1] === "equal") {
-                //         display.innerText = answer + "";
-                //         operation.innerText = "";
-                //     }
-                //     //display.innerText = "";
-                //     vars.length = 0;
-                //     vars.push(answer);
-                //     console.log(vars.toString());
-                //     ids.shift();
-                // } else if (ids[0] === "divide") {
-                //     answer = Number(vars[0]) / Number(vars[1]);
-                //     operation.innerText = answer + "" + btn.innerText;
-                //     if (ids[1] === "equal") {
-                //         display.innerText = answer + "";
-                //         operation.innerText = "";
-                //     }
-                //     //display.innerText = "";
-                //     vars.length = 0;
-                //     vars.push(answer);
-                //     console.log(vars.toString());
-                //     ids.shift();
-                // }
-
+                }                
             }
-
         }
-
-
-
     });
 });

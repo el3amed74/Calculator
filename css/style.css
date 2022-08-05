@@ -11,10 +11,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #213970;
-    /* background-image: url(../images/calculator.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
+    
 }
 
 .display {
